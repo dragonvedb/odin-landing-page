@@ -51,8 +51,8 @@ header {
     background-color: #3882f6;
     border: none;
     border-radius: 8px;
-
     padding: 10px 46px;
+    font-size: 18px;
 }
 
 #intro-img {
