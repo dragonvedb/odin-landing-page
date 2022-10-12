@@ -58,3 +58,25 @@ header {
 #intro-img {
     width: 650px;
 }
+
+.features h3,
+.feature p {
+    text-align: center;
+    padding: 0px 4px;
+}
+
+.info-flex {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.feature {
+    width: 180px;
+}
+
+.feature div {
+    height: 180px;
+    border: solid 4px #3882f6;
+    border-radius: 16px;
+}
