@@ -38,12 +38,21 @@ header {
 .intro-title {
     font-size: 48px;
     font-weight: extra-bold;
-    margin-bottom: 5px; 
+    margin-bottom: 0px; 
 }
 
 .intro-text p {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.intro-text button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+
+    padding: 10px 46px;
 }
 
 #intro-img {
