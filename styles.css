@@ -8,6 +8,12 @@ header,
     padding: 16px 300px;
 }
 
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Tahoma, sans-serif;
+}
+
 .menu {
     display: flex;
     gap: 16px;
