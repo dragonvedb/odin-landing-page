@@ -82,11 +82,6 @@ header {
     margin: 20px 0px 50px;
 }
 
-.feature p {
-    font-size: 18px;
-    color: #1f2937;
-}
-
 .info-flex {
     display: flex;
     justify-content: center;
@@ -100,9 +95,17 @@ header {
 }
 
 .feature div {
+    box-sizing: border-box;
+
     height: 180px;
+    width: 180px;
     border: solid 4px #3882f6;
     border-radius: 16px;
+}
+
+.feature p {
+    font-size: 18px;
+    color: #1f2937;
 }
 
 .quote-div {
