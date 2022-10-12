@@ -6,21 +6,46 @@ header,
     justify-content: space-between;
 
     padding: 16px 300px;
+    font-family: Tahoma, sans-serif;
+}
+
+header {
+    align-items: center;
 }
 
 #logo {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
-    font-family: Tahoma, sans-serif;
 }
 
 .menu {
     display: flex;
-    gap: 16px;
+    gap: 32px;
 
     list-style-type: none;
 }
 
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.intro {
+    gap: 100px;
+}
+
+.intro-title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin-bottom: 5px; 
+}
+
+.intro-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 #intro-img {
-    width: 600px;
+    width: 650px;
 }
