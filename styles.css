@@ -1,12 +1,19 @@
+html {
+    font-family: Tahoma, sans-serif;
+}
+
+header,
+.intro,
+.features {
+    padding: 16px 300px;
+}
+
 header,
 .intro {
     color: #f9faf8;
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-
-    padding: 16px 300px;
-    font-family: Tahoma, sans-serif;
 }
 
 header {
