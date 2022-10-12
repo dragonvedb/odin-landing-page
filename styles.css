@@ -90,6 +90,8 @@ header {
     display: flex;
     justify-content: center;
     gap: 80px;
+
+    margin-bottom: 90px;
 }
 
 .feature {
@@ -100,4 +102,26 @@ header {
     height: 180px;
     border: solid 4px #3882f6;
     border-radius: 16px;
+}
+
+.quote-div {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 500px;
+
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.quote-author {
+    align-self: flex-end;
+
+    font-weight: bold;
+    font-size: 24px;
 }
