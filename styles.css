@@ -42,17 +42,19 @@ header {
 
 .intro {
     gap: 100px;
+    padding: 120px 300px;
 }
 
 .intro-title {
     font-size: 48px;
     font-weight: extra-bold;
-    margin-bottom: 0px; 
+    margin-bottom: 10px; 
 }
 
 .intro-text p {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 16px;
 }
 
 .intro-text button {
@@ -102,6 +104,8 @@ header {
     width: 180px;
     border: solid 4px #3882f6;
     border-radius: 16px;
+
+    margin-bottom: 10px;
 }
 
 .feature p {
@@ -112,7 +116,7 @@ header {
 .quote-div {
     display: flex;
     flex-direction: column;
-    padding: 90px 500px;
+    padding: 120px 500px;
 
     background-color: #e5e7eb;
     color: #1f2937;
@@ -160,4 +164,12 @@ header {
     padding: 10px 46px;
     font-size: 18px;
     font-weight: bold;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: center; 
+    padding: 40px 0px;
 }
