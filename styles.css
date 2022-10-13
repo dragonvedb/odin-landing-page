@@ -129,3 +129,33 @@ header {
     font-weight: bold;
     font-size: 24px;
 }
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #3882f6;
+    margin: 80px 300px;
+    padding: 50px 120px;
+    border-radius: 16px;
+}
+
+.cta-large {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-small {
+    font-size: 18px;
+    color: #e5e7eb; 
+}
+
+.cta button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: solid 3px #f9faf8;
+    border-radius: 8px;
+    padding: 10px 46px;
+    font-size: 18px;
+}
