@@ -60,7 +60,7 @@ header {
 .intro-text button {
     color: #f9faf8;
     background-color: #3882f6;
-    border: none;
+    border: solid 3px #3882f6;
     border-radius: 8px;
     padding: 10px 46px;
     font-size: 18px;
