@@ -97,8 +97,9 @@ header {
     width: 180px;
 }
 
-.feature div {
+.feature img {
     box-sizing: border-box;
+    object-fit: contain;
 
     height: 180px;
     width: 180px;
@@ -106,6 +107,7 @@ header {
     border-radius: 16px;
 
     margin-bottom: 10px;
+    padding: 16px;
 }
 
 .feature p {
@@ -172,4 +174,8 @@ footer {
     font-size: 18px;
     text-align: center; 
     padding: 40px 0px;
+}
+
+footer a {
+    color: #e5e7eb;
 }
